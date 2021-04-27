@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jajungur">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Kategorie.Kategorie_Payment"></activity>
+        <activity android:name=".Account.Account_Member_Profile" />
+        <activity android:name=".Account.Account_Member_Init" />
+        <activity android:name=".Customer.Customer_Notice_Add" />
+        <activity android:name=".Kategorie.Kategorie_Transaction_InPost" />
+        <activity android:name=".Kategorie.Kategorie_Transaction" />
+        <activity android:name=".Kategorie.Kategorie_Transaction_Write" />
+        <activity android:name=".Community.Community_Rule" />
+        <activity android:name=".Customer.Customer_Notice_Content" />
+        <activity android:name=".Customer.Customer_Policy" />
+        <activity android:name=".Customer.Customer_Clause" />
+        <activity android:name=".Customer.Customer_FAQ" />
+        <activity android:name=".Customer.Customer_Notice" />
+        <activity android:name=".Account.Account_SignUp" />
+        <activity android:name=".Menu.Menu_Customer" />
+        <activity android:name=".Menu.Menu_Community" />
+        <activity android:name=".Menu.Menu_MyPage" />
+        <activity android:name=".Kategorie.Kategorie_Home" />
+        <activity android:name=".Account.Account_Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

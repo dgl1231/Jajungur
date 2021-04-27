@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="380dp"
+    android:layout_height="140dp"
+    android:layout_margin="15dp"
+    android:onClick="cardBtn"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/contentsLayout"
+            android:layout_width="166dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imagePost"
+                android:layout_width="140dp"
+                android:layout_height="130dp"
+                android:maxWidth="130dp"
+                android:maxHeight="120dp"
+                app:srcCompat="@drawable/bicyclelogo" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="209dp"
+            android:layout_height="140dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/transPost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="2dp"
+                android:textColor="#000000"
+                android:hint="제목"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/transPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000000"
+                android:hint="가격"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/transDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="2dp"
+                android:gravity="bottom|right"
+                android:hint="시간" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

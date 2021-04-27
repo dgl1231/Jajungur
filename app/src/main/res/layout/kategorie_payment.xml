@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Kategorie.Kategorie_Payment">
+
+    <TextView
+        android:id="@+id/ArticleInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:text="선택 물품 정보" />
+
+    <ImageView
+        android:id="@+id/ProductPic"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:maxHeight="200dp"
+        android:maxWidth="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/bicyclelogo" />
+
+    <TextView
+        android:id="@+id/ProductPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:hint="가격" />
+
+    <TextView
+        android:id="@+id/PaymentSelect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:text="결제 수단 선택" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <CheckBox
+            android:id="@+id/VirtualAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="VitualBox"
+            android:text="가상계좌" />
+
+        <CheckBox
+            android:id="@+id/CreditCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="CardBox"
+            android:text="신용카드" />
+
+        <CheckBox
+            android:id="@+id/AccountTransfer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="AccountBox"
+            android:text="계좌이체" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/precaution"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="상품, 가격을 확인하였으며, 결제 전 주의사항을 확인하였습니다."
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <Button
+                android:id="@+id/CancelBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="#23CAA6"
+                android:gravity="center"
+                android:onClick="CancelBtn"
+                android:text="취소" />
+
+            <Button
+                android:id="@+id/PaymentBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="70dp"
+                android:layout_weight="1"
+                android:background="#23CAA6"
+                android:onClick="PaymentBtn"
+                android:gravity="center"
+                android:text="결제" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

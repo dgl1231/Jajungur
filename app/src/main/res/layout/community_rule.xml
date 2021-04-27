@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Community.Community_Rule">
+
+
+    <TextView
+        android:id="@+id/RuleList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="커뮤니티 이용규칙"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Rule1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="1. 커뮤니티를 이용하기 전 커뮤니티 이용규칙의 모든 내용을\n     숙지해주시기 바랍니다." />
+
+    <TextView
+        android:id="@+id/Rule2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="2. 이 약관의 정의는 서비스 이용약관을 따릅니다." />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/Prohibition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="금지 행위"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/Prohibition1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="다음 목록에 해당하는 게시물 작성, 1:1 대화 발송, 게시판 개설\n 악용행위를 금지하고 있습니다." />
+
+        <TextView
+            android:id="@+id/Prohibition2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="1. 예의범절에 어긋나는 행위" />
+
+        <TextView
+            android:id="@+id/Prohibition3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="2. 미풍양속에 어긋나는 행위" />
+
+        <TextView
+            android:id="@+id/Prohibition4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="3. 정보통신망법에 반하는 홍보 행위" />
+
+        <TextView
+            android:id="@+id/Prohibition5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="4. 공직선거법에 반하는 선거, 정당, 정치인 연관 행위" />
+
+        <TextView
+            android:id="@+id/Prohibition6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="5. 의료 약사법에 반하는 거래 불가능 품목 거래 행위 " />
+
+        <TextView
+            android:id="@+id/Prohibition7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="6. 비정상적 서비스 이용행위" />
+
+        <TextView
+            android:id="@+id/Prohibition8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="7. 게시물 작성 전 명시되어 있는 게시판 별 규칙에 어긋나는 행위" />
+
+        <TextView
+            android:id="@+id/Prohibition9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="8. 기타 위 목록의 행위와 동일하거나 비슷한 목적을 달성하기 \n     위한 행위 일체" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ManagerRule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="게시판 관리자 제도"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/ManagerRule1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="1. 모든 게시물은 신고처리시스템에 의해 자동으로 처리되면,\n    요청에 의해 사전 검토되거나 임의로 처리되지 않습니다." />
+
+        <TextView
+            android:id="@+id/ManagerRule2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="2. 게시판 관리자는 탈퇴할 수 없습니다. 탈퇴를 위해서는 게시판을\n   삭제하거나 다른 회원에게 관리자 권한을 양도해야 합니다." />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="3. 다음 목록에 해당되는 경우, 게시판이 강제로 폐쇄되거나\n   게시판 관리자 권한이 박탈될 수 있습니다." />
+
+
+    </LinearLayout>
+</LinearLayout>

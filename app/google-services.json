@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "406626300960",
+    "firebase_url": "https://jajungur-e1076-default-rtdb.firebaseio.com",
+    "project_id": "jajungur-e1076",
+    "storage_bucket": "jajungur-e1076.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406626300960:android:7277830f2b59df49edf845",
+        "android_client_info": {
+          "package_name": "com.example.jajungur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406626300960-j4jb3jlvohqls1tbeh97phd1asmsc0vs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jajungur",
+            "certificate_hash": "367aa306ce53a5ad95f8a63c65760412d05ef898"
+          }
+        },
+        {
+          "client_id": "406626300960-quor0ccr24pr4mlu5dhv6lv9u6mfpfri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFuPAnAZNssriiZWWXBVzz3fLkierw8ng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "406626300960-quor0ccr24pr4mlu5dhv6lv9u6mfpfri.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
